@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\bin\Debug\Прога2 1.2.exe.config
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\bin\Debug\Прога2 1.2.exe
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\bin\Debug\Прога2 1.2.pdb
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\obj\Debug\Прога2 1.2.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\obj\Debug\Прога2 1.2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\obj\Debug\Прога2 1.2.csproj.Up2Date
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\obj\Debug\Прога2 1.2.exe
+C:\Users\admin\source\repos\Прога2 1.2\Прога2 1.2\obj\Debug\Прога2 1.2.pdb

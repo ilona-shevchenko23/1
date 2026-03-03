@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\\u041F\u0440\u043E\u0433\u04302 1.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA24767-616E-4A9A-98FD-E3B9A41F623B}|\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2.csproj|c:\\users\\admin\\source\\repos\\\u043F\u0440\u043E\u0433\u04302 1.2\\\u043F\u0440\u043E\u0433\u04302 1.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA24767-616E-4A9A-98FD-E3B9A41F623B}|\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2.csproj|solutionrelative:\u043F\u0440\u043E\u0433\u04302 1.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA24767-616E-4A9A-98FD-E3B9A41F623B}|\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2.csproj|C:\\Users\\admin\\source\\repos\\\u041F\u0440\u043E\u0433\u04302 1.2\\\u043F\u0440\u043E\u0433\u04302 1.2\\bin\\debug\\result.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FA24767-616E-4A9A-98FD-E3B9A41F623B}|\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2.csproj|solutionrelative:\u043F\u0440\u043E\u0433\u04302 1.2\\bin\\debug\\result.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 150,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "result.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2\\bin\\Debug\\result.json",
+              "RelativeDocumentMoniker": "\u041F\u0440\u043E\u0433\u04302 1.2\\bin\\Debug\\result.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2\\bin\\Debug\\result.json",
+              "RelativeToolTip": "\u041F\u0440\u043E\u0433\u04302 1.2\\bin\\Debug\\result.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T18:40:34.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2\\Program.cs",
+              "RelativeDocumentMoniker": "\u041F\u0440\u043E\u0433\u04302 1.2\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\\u041F\u0440\u043E\u0433\u04302 1.2\\\u041F\u0440\u043E\u0433\u04302 1.2\\Program.cs",
+              "RelativeToolTip": "\u041F\u0440\u043E\u0433\u04302 1.2\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T17:13:31.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

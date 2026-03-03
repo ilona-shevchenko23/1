@@ -1,0 +1,8 @@
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\bin\Debug\addresses.txt
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\bin\Debug\Прога2 1.1.exe.config
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\bin\Debug\Прога2 1.1.exe
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\bin\Debug\Прога2 1.1.pdb
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\obj\Debug\Прога2 1.1.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\obj\Debug\Прога2 1.1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\obj\Debug\Прога2 1.1.exe
+C:\Users\admin\source\repos\Прога2 1.1\Прога2 1.1\obj\Debug\Прога2 1.1.pdb
