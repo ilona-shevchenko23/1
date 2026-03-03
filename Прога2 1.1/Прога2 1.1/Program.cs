@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Прога2_1._1
 {
-    // Клас для збереження даних про адресу
+
     public class Address
     {
         public string Street { get; set; }

@@ -15,6 +15,7 @@ namespace Прога2_1._3
             try
             {
                 List<int> list = new List<int> { 2, 5, -2, 8, -3 };
+                Console.WriteLine("Ilona zrobyla sama");
 
                 Console.WriteLine("Початковий список: " + string.Join(", ", list));
 
