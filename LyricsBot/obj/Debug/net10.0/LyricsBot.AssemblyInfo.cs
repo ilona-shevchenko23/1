@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LyricsBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4d46f1c3bef1019d739c4201de1923e87add9b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8eb3b683cac0bef6fa9889028e3ba77d8fd35ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("LyricsBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LyricsBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

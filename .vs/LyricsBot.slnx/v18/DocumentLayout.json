@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Dockerfile.txt",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\Dockerfile.txt",
+              "RelativeDocumentMoniker": "LyricsBot\\Dockerfile.txt",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\Dockerfile.txt",
+              "RelativeToolTip": "LyricsBot\\Dockerfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-08T01:57:21.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\DatabaseService.cs",
               "RelativeDocumentMoniker": "LyricsBot\\DatabaseService.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "LyricsBot\\DatabaseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T20:10:51.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T20:10:51.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\appsettings.json",
               "RelativeDocumentMoniker": "LyricsBot\\appsettings.json",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "LyricsBot\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-07T20:07:21.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T20:07:21.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TelegramBotService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\TelegramBotService.cs",
               "RelativeDocumentMoniker": "LyricsBot\\TelegramBotService.cs",
@@ -73,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\Program.cs",
               "RelativeDocumentMoniker": "LyricsBot\\Program.cs",
@@ -81,8 +96,7 @@
               "RelativeToolTip": "LyricsBot\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T01:14:30.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T01:14:30.816Z"
             }
           ]
         }
