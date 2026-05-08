@@ -1,0 +1,6 @@
+@LyricsBot_HostAddress = http://localhost:5074
+
+GET {{LyricsBot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
