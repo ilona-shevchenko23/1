@@ -20,7 +20,7 @@ namespace SpotifyLyricsBot
             using var connection = new NpgsqlConnection(_connectionString);
             await connection.OpenAsync();
 
-            // ILIKE означає пошук без врахування великих/малих літер
+            // Пошук без врахування великих/малих літер
             string query = "SELECT \"Artist\", \"Title\", \"Album\", \"Lyrics\", \"Language\" FROM public.\"CachedSongs\" WHERE \"Artist\" ILIKE @artist AND \"Title\" ILIKE @title LIMIT 1";
 
             using var command = new NpgsqlCommand(query, connection);

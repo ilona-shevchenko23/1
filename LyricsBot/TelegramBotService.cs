@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
-using Telegram.Bot.Types.Enums; // Нова бібліотека для типів оновлень (повідомлення чи кнопка)
+using Telegram.Bot.Types.Enums; 
 using Telegram.Bot.Types.ReplyMarkups;
 using Microsoft.Extensions.Hosting;
 
@@ -101,28 +101,28 @@ namespace SpotifyLyricsBot
         {
             long chatId = 0;
 
-            // Визначаємо, звідки прийшов запит: текст чи натискання Inline-кнопки
+            // Визначаємо, звідки прийшов запит: текст чи натискання кнопки
             if (update.Type == UpdateType.Message && update.Message?.Text != null)
                 chatId = update.Message.Chat.Id;
             else if (update.Type == UpdateType.CallbackQuery)
                 chatId = update.CallbackQuery.Message.Chat.Id;
             else return;
 
-            if (!sessions.ContainsKey(chatId)) sessions[chatId] = new UserSession();
+            if (!sessions.ContainsKey(chatId)) sessions[chatId] = new UserSession(); // Створюємо сесію, якщо її ще немає
             var session = sessions[chatId];
 
             // 1. ОБРОБКА НАТИСКАННЯ INLINE-КНОПОК
             if (update.Type == UpdateType.CallbackQuery)
             {
                 string callbackData = update.CallbackQuery.Data;
-                await bot.AnswerCallbackQuery(update.CallbackQuery.Id); // Зупиняємо "крутилку" на кнопці
+                await bot.AnswerCallbackQuery(update.CallbackQuery.Id); // Зупиняємо завантаження на кнопці
 
                 if (callbackData == "top5")
                 {
                     if (string.IsNullOrEmpty(session.LastSearchedArtist)) return;
 
                     await bot.SendMessage(chatId, $"Шукаю топ пісень для **{session.LastSearchedArtist}**...");
-                    var topSongs = await GetTop5SongsAsync(session.LastSearchedArtist);
+                    var topSongs = await GetTop5SongsAsync(session.LastSearchedArtist); // Шукаємо в інтернеті топ-5 пісень
 
                     if (topSongs.Count == 0)
                     {
@@ -131,7 +131,7 @@ namespace SpotifyLyricsBot
                     else
                     {
                         var buttons = new List<InlineKeyboardButton[]>();
-                        foreach (var song in topSongs)
+                        foreach (var song in topSongs) // Додаємо кнопку для кожної знайденої пісні
                         {
                             // Обрізаємо назву, якщо вона дуже довга (ліміт Telegram)
                             string safeSong = song.Length > 40 ? song.Substring(0, 40) : song;
@@ -206,7 +206,7 @@ namespace SpotifyLyricsBot
         // --- МЕТОД ПОШУКУ ТА ВІДПРАВКИ ТЕКСТУ ---
         private async Task SearchAndSendLyricsAsync(ITelegramBotClient bot, long chatId, UserSession session)
         {
-            var cachedSong = await _db.GetSongAsync(session.Artist, session.Title);
+            var cachedSong = await _db.GetSongAsync(session.Artist, session.Title); // Спочатку шукаємо в локальній базі
 
             if (cachedSong != null)
             {
@@ -232,7 +232,7 @@ namespace SpotifyLyricsBot
                     string actualLanguage = DetectActualLanguage(result.Lyrics, session.Language);
                     string albumInfo = string.IsNullOrEmpty(result.Album) ? "Невідомий альбом" : result.Album;
 
-                    await _db.SaveSongAsync(result.Artist, result.Title, result.Album, result.Lyrics, actualLanguage);
+                    await _db.SaveSongAsync(result.Artist, result.Title, result.Album, result.Lyrics, actualLanguage); // Зберігаємо в базу для майбутніх запитів
 
                     await bot.SendMessage(chatId,
                         $"🌐 **Завантажено з інтернету**\n\n" +
@@ -248,7 +248,7 @@ namespace SpotifyLyricsBot
                 else
                 {
                     session.Step = 2;
-                    await bot.SendMessage(chatId, "Нічого не знайшов. Спробуй написати ВИКОНАВЦЯ ще раз:", replyMarkup: GetMainMenu());
+                    await bot.SendMessage(chatId, "Нічого не знайшов. Спробуй написати ще раз:", replyMarkup: GetMainMenu());
                 }
             }
         }
@@ -260,7 +260,7 @@ namespace SpotifyLyricsBot
             try
             {
                 string url = $"https://lrclib.net/api/search?q={Uri.EscapeDataString(artist)}";
-                var arr = JsonNode.Parse(await client.GetStringAsync(url)) as JsonArray;
+                var arr = JsonNode.Parse(await client.GetStringAsync(url)) as JsonArray; // Завантажуємо відповідь, і розшифровуємо JSON у масив даних
                 if (arr != null)
                 {
                     foreach (var node in arr)
@@ -328,7 +328,7 @@ namespace SpotifyLyricsBot
             return null;
         }
 
-        private int ComputeLevenshteinDistance(string s, string t)
+        private int ComputeLevenshteinDistance(string s, string t) // Алгоритм, що заповнює матрицю чисел і рахує мінімальну кількість змін, щоб з одного слова зробити інше
         {
             if (string.IsNullOrEmpty(s) || string.IsNullOrEmpty(t)) return 99;
             int n = s.Length, m = t.Length;
@@ -373,6 +373,6 @@ namespace SpotifyLyricsBot
             return claimedLanguage;
         }
 
-        private Task HandleErrorAsync(ITelegramBotClient b, Exception e, CancellationToken c) => Task.CompletedTask;
+        private Task HandleErrorAsync(ITelegramBotClient b, Exception e, CancellationToken c) => Task.CompletedTask; // Обробка помилок
     }
 }
