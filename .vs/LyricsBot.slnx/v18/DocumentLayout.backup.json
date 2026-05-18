@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\textanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\textanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,6 +19,18 @@
       "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\cachedsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\cachedsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|c:\\users\\admin\\desktop\\my_labs\\lyricsbot\\lyricsbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AF93E2AF-7F5D-222C-2B43-852EBEC21BED}|LyricsBot\\LyricsBot.csproj|solutionrelative:lyricsbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -30,7 +38,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 203,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -43,6 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TextAnalytics.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\TextAnalytics.cs",
+              "RelativeDocumentMoniker": "LyricsBot\\TextAnalytics.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\TextAnalytics.cs",
+              "RelativeToolTip": "LyricsBot\\TextAnalytics.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T19:46:52.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CachedSong.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\CachedSong.cs",
+              "RelativeDocumentMoniker": "LyricsBot\\CachedSong.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\CachedSong.cs",
+              "RelativeToolTip": "LyricsBot\\CachedSong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T19:04:54.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\Dockerfile",
               "RelativeDocumentMoniker": "LyricsBot\\Dockerfile",
@@ -55,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "sessions.json",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\sessions.json",
               "RelativeDocumentMoniker": "LyricsBot\\sessions.json",
@@ -63,49 +97,51 @@
               "RelativeToolTip": "LyricsBot\\sessions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-12T09:30:22.516Z"
+              "WhenOpened": "2026-05-12T09:30:22.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\DatabaseService.cs",
               "RelativeDocumentMoniker": "LyricsBot\\DatabaseService.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\DatabaseService.cs",
               "RelativeToolTip": "LyricsBot\\DatabaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T20:10:51.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\appsettings.json",
               "RelativeDocumentMoniker": "LyricsBot\\appsettings.json",
               "ToolTip": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\appsettings.json",
               "RelativeToolTip": "LyricsBot\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-07T20:07:21.526Z"
+              "WhenOpened": "2026-05-07T20:07:21.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TelegramBotService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\TelegramBotService.cs",
               "RelativeDocumentMoniker": "LyricsBot\\TelegramBotService.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\TelegramBotService.cs",
               "RelativeToolTip": "LyricsBot\\TelegramBotService.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAqwP0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAqwG0BAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T01:21:13.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\My_Labs\\LyricsBot\\LyricsBot\\Program.cs",
               "RelativeDocumentMoniker": "LyricsBot\\Program.cs",
@@ -113,7 +149,8 @@
               "RelativeToolTip": "LyricsBot\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T01:14:30.816Z"
+              "WhenOpened": "2026-05-07T01:14:30.816Z",
+              "EditorCaption": ""
             }
           ]
         }
